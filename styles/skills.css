@@ -1,0 +1,78 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    gap: 10%;
+    margin-left: 50%;
+    
+}
+
+.site-header {
+  background-color: #333;
+  padding: 1rem;
+  border-radius: 20rem;
+}
+
+.navbar .nav-links {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar .nav-links li {
+  margin: 0 1rem;
+}
+
+.navbar .nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.navbar .nav-links a:hover {
+  color: rgb(223, 6, 125);
+}
+.skills-section {
+  text-align: center;
+  padding: 3rem 1rem;
+  background-color: #f0f8ff;
+}
+
+.skills-section h2 {
+  font-size: 2rem;
+  color: rgb(231, 10, 132);
+  margin-bottom: 1rem;
+}
+
+.skills-section p {
+  font-size: 1.1rem;
+  color: #444;
+  margin-bottom: 1.5rem;
+}
+
+.skills-list {
+  list-style: none;
+  padding: 0;
+  max-width: 600px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.skills-list li {
+  background-color: #fff;
+  padding: 0.8rem 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  font-size: 1rem;
+  color: #333;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.skills-list li:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
