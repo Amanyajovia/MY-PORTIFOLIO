@@ -15,6 +15,7 @@ body {
 .site-header {
   background-color: #333;
   padding: 1rem;
+  border-radius: 20rem;
 }
 
 .navbar .nav-links {

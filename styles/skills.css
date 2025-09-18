@@ -12,6 +12,7 @@
   border-radius: 20rem;
 }
 
+
 .navbar .nav-links {
   list-style: none;
   display: flex;
@@ -30,6 +31,7 @@
   font-weight: bold;
   transition: color 0.3s;
 }
+
 
 .navbar .nav-links a:hover {
   color: rgb(223, 6, 125);
