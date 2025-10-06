@@ -75,3 +75,6 @@ body {
   margin-bottom: 0.5rem;
   color: #444;
 }
+h2, h3 {
+  color: pink;
+}

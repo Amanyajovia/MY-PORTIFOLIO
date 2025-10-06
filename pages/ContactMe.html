@@ -42,9 +42,25 @@
 
     <label for="Message">Message:</label><br>
     <input type="text" id="Message" name="Message" required>
+    <button type="submit">Send Message</button>
     
   </div>
 </form>
+<script>
+  const form = document.getElementById('contactForm');
+
+  form.addEventListener('submit', function(e) {
+    e.preventDefault(); // prevent form from reloading the page
+
+    // Display notification
+    alert('Message sent successfully!');
+
+    // Optional: Clear the form fields
+    form.reset();
+  });
+</script>
+
+
 <section id="contact">
   <h2>Contact</h2>
   <p>Email: <a href="mailto:amanyajovia7@email.com">amanyajovia7@email.com</a></p>
